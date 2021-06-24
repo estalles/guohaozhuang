@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>AVIATO</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <body>
+        
+        <div class="top-header">
+        <nav class="navbar navbar-light ">
+           
+            <div class="col-md-4 col-xs-12 col-sm-4">
+          <div class="contact-number">
+            <span></span>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12 col-sm-4">
+            <!-- Site Logo -->
+            <div class="logo text-center">
+              <a href="index.html">
+                <!-- replace logo here -->
+                <svg width="135px" height="29px" viewBox="0 0 155 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="40"
+                    font-family="AustinBold, Austin" font-weight="bold">
+                    <g id="Group" transform="translate(-108.000000, -297.000000)" fill="#000000">
+                      <text id="AVIATO">
+                        <tspan x="108.94" y="325">AVIATO</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+          
+            </div>
+         
+          </div>
+          <div class="col-md-4 col-xs-12 col-sm-4">
+            <div class="top-menu text-right list-inline">
+                <a class="dropdown cart-nav dropdown-slide">
+                    <a href=""class="btn btn-primay" data-toggle="modal" data-target="#loginModal">登入</a>
+                    <a href=""class="btn btn-primay" data-toggle="modal" data-target="#registerModal">注册</a>
+                    <a href="system.html">后台</a>
+               
+                    <button class="btn btn-sm btn-cart" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"aria-expanded="false">
+                        <i class="fa fa-shopping-cart text-dark fa-2x" aria-hidden="true"></i>
+                        <span class="badge badge-pill badge-danger">2</span>
+                    </button>   
+                    <div class="dropdown-menu dropdown-menu-right p-2" style="min-width: 300px;"aria-labeldby="dropdownMenuButton">
+                        <table class="table table-sm">
+                            <h6 class="mb-3 pt-2">已选择商品</h6>
+                            <tbody>
+                                <tr>
+                                    <td class="align-middle text-center">
+                                        <a href="#removeModal" class="text-muted" data-toggle="modal"data-target="#removeModal"
+                                        data-title="删除手机一件" data-backdrop="static">
+                                    <i class="fat fa-trash-alt" aria-hidden="true"></i></a>
+                                    </td>
+                                    <td ><img src="./images/honor1.jpg" width="50" height="50"></td>
+                                    <td>HONOR V40</td>
+                                    <td>*1</td>
+                                    <td >￥3599</td>
+                                </tr>
+                                <td class="align-middle text-center">
+                                  <a href="#removeModal" class="text-muted" data-toggle="modal"data-target="#removeModal"
+                                  data-title="删除手机一件" data-backdrop="static">
+                              <i class="fat fa-trash-alt" aria-hidden="true"></i></a>
+                              </td>
+                              <td ><img src="./images/color04.png" width="45" height="45"></td>
+                              <td>中兴Axon 30 Ultra</td>
+                              <td>*1</td>
+                              <td >￥4698</td>
+                          </tr>
+                              </tbody>
+                              
+                        </table>
+                        
+                        <a href="checkout.html" class="btn btn-primary btn-block" >结账去</a>
+                      </div>
+                    </a>
+            </div>
+        <br>
+        </div>
+    
+
+    
+      </nav>
+      
+      <hr style="width:70%; background-color: light; ">
+    
+  
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item active">
+                  <a class="nav-link active "style="color: #000;" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html"style="color: #000;">shop</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2"style="color: #000;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+        </div>
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+            <ul class="navbar-nav mr-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html"style="color: #000;">Cart</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="checkout.html"style="color: #000;">Checkout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+  <section class="page-header bg-gray">
+	<div class="container ">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content">
+					<h1 >Shop</h1>
+					
+						<P><a href="index.html">Home</a>/Shop</P>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+      <div class="card"  >
+        <img src="images/vivo1.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">vivo X60 Pro</h5>
+          <p class="card-text">vivo X60 Pro 12GB+256GB 华彩 年度旗舰5G新品手机 蔡司光学镜头 专业影像旗舰 超稳微云台 夜色更精彩</p>
+   
+          <p class="product-price"> ￥4498</p>
+        
+          <a href=""class="btn btn-outline-info btn-lg active " data-toggle="modal" data-target="#registerModal1">立即查看</a>
+        
+          
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card">
+          <img src="images/honor1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">荣耀V40</h5>
+            <p class="card-text">荣耀V40 8GB+128GB 幻夜黑 5G 视网膜级超感屏 5000万超感光影像 超级快充 全网通智能手机</p>
+            <p class="product-price">¥3589.00</p>
+            <a href=""class="btn btn-outline-info btn-lg active " data-toggle="modal" data-target="#registerModal2">立即查看</a>
+          </div>
+        </div>
+      </div>
+    <div class="col mb-4">
+        <div class="card"  >
+          <img src="images/iPhone1.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">iPhone12</h5>
+            <p class="card-text">Apple iPhone 12 128G 白色 移动联通电信5G全网通手机 学生智能拍照全面屏游戏手机</p>
+         
+            <p class="product-price"> ￥6799</p>
+            <a href=""class="btn btn-outline-info btn-lg active " data-toggle="modal" data-target="#registerModal3">立即查看</a>
+          
+          </div>
+        </div>
+      </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="images/meizu.png" class="card-img-top " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">魅族 18 Pro</h5>
+          <p class="card-text">魅族 18 Pro 8GB+128GB 飞雪流光 骁龙888 2K AMOLED 曲面屏 4400W前摄光学防抖 40W无线超充 5G手机</p>
+         
+          <p class="product-price">￥4999</p>
+          <a href=""class="btn btn-outline-info btn-lg active " data-toggle="modal" data-target="#registerModal4">立即查看</a>
+        </div>
+      </div>
+    </div>
+  
+    
+  </div>
+  <div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+        <div class="card">
+          <img src="images/oppo1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">OPPO Reno6 Pro</h5>
+            <p class="card-text">OPPO Reno6 Pro 5G手机 8GB+128GB 夏日晴海 全网通6400万水光四摄 65W超级闪充 90Hz高感屏 36个月流畅护航 拍照美颜手机</p>
+            <p class="product-price">￥3499</p>
+            <a href=""class="btn btn-outline-info btn-lg active " data-toggle="modal" data-target="#registerModal5">立即查看</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/xiaomi2.jpg" class="card-img-top" alt=" width:10px height:10px">
+          <div class="card-body">
+            <h5 class="card-title">小米11 Ultra</h5>
+            <p class="card-text">小米（MI）米11 Ultra 12+256GB 陶瓷黑 骁龙888处理器 5000mAh大电量 120HZ刷新率 小米11至尊纪念版 小米安卓大屏手机游戏手机</p>
+            <p class="product-price">￥6499</p>
+            <a href=""class="btn btn-outline-info btn-lg active " data-toggle="modal" data-target="#registerModal6">立即查看</a>
+          </div>
+        </div>
+      </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="images/iqoo7.jpg" class="card-img-top " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iQOO 7</h5>
+          <p class="card-text">vivo iQOO 7 潜蓝 12+256G 高通骁龙888+增强版LPDDR5 120W超快闪充 全感操控系统 双路线性马达 立体双扬 UFS 3.1 双模5G全网通iqoo手机</p>
+          
+          <p class="product-price">￥3398.00</p>
+          <a href=""class="btn btn-outline-info btn-lg active " data-toggle="modal" data-target="#registerModal7">立即查看</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col mb-4">
+      <div class="card">
+        <img src="images/huawei1.png" class="card-img-top" alt=" width:10px height:10px">
+        <div class="card-body">
+          <h5 class="card-title">华为 mate 40 pro</h5>
+          <p class="card-text">华为(HUAWEI)华为Mate 40 Pro 5G 全网通 8GB+256GB 亮黑色 5nm麒麟9000旗舰芯片 移动联通电信5G智能拍照游戏手机 华为mate40pro5g版</p>
+          <p class="product-price">￥6299</p>
+          <a href=""class="btn btn-outline-info btn-lg active " data-toggle="modal" data-target="#registerModal8">立即查看</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header" bg-primary text-white>
+          <h5 class="modal-title" id="exampleModalLabel">登入</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">信箱</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">密码</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">记住密码</label>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+        <a href="#" class="mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#registerModal">切换到注册</a>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary"data-dismiss="modal">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-warning text-white">
+          <h5 class="modal-title" id="exampleModalLabel">注册</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6">
+                <h5>注册 AVIATO 商城会员</h5>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, cum odit ut voluptatum obcaecati quo, quis ratione tempore alias sapiente reprehenderit necessitatibus sint non tempora beatae corrupti. Dolor, aliquam rem!</P>
+              </div>
+              <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">信箱</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">密码</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">确定密码</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">记住密码</label>
+                    </div>
+                  </form>
+              </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">切换到登入</a>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary"data-dismiss="modal">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="registerModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-Secondary ">
+          <h5 class="modal-title" id="exampleModalLabel">vivo X60 Pro</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6">
+                <img src="./images/vivo1.png" width="200px" >
+              </div>
+              <div class="col-md-6">
+            	<h2 class="product-title">vivo X60 Pro</h2>
+			    <p class="product-price">￥4498</p>
+			    <p class="product-short-description">
+			    vivo X60 Pro 12GB+256GB 华彩 年度旗舰5G新品手机 蔡司光学镜头 专业影像旗舰 超稳微云台 夜色更精彩
+			    </p>
+                <a class="btn btn-primary" href="cart.html" role="button">加入购物车</a>
+                  
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="registerModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-Secondary ">
+          <h5 class="modal-title" id="exampleModalLabel">荣耀V40</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6">
+                <img src="./images/honor1.jpg" width="200px" >
+              </div>
+              <div class="col-md-6">
+                <h2 class="product-title">荣耀V40</h2>
+                <p class="product-price">
+                    ¥3589.00</p>
+                <p class="product-short-description">
+                    荣耀V40 8GB+128GB 幻夜黑 5G 视网膜级超感屏 5000万超感光影像 超级快充 全网通智能手机
+                </p> 
+                <a class="btn btn-primary" href="cart.html" role="button">加入购物车</a>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="registerModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-Secondary ">
+          <h5 class="modal-title" id="exampleModalLabel">iPhone12</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6">
+                <img src="./images/iPhone1.jpg" width="200px" >
+              </div>
+              <div class="col-md-6">
+                <h2 class="product-title">iPhone12</h2>
+                <p class="product-price">￥6799</p>
+                <p class="product-short-description">
+                    Apple iPhone 12 128G 白色 移动联通电信5G全网通手机 学生智能拍照全面屏游戏手机
+                </p>
+                <a class="btn btn-primary" href="cart.html" role="button">加入购物车</a>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="registerModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-Secondary ">
+          <h5 class="modal-title" id="exampleModalLabel">魅族 18 Pro</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6">
+                <img src="./images/meizu.png" width="200px" >
+              </div>
+              <div class="col-md-6">
+                <h2 class="product-title">魅族 18 Pro</h2>
+                <p class="product-price">￥4999</p>
+                <p class="product-short-description">
+                    魅族 18 Pro 8GB+128GB 飞雪流光 骁龙888 2K AMOLED曲面屏 4400W前摄光学防抖 40W无线超充 5G手机
+                </p> 
+                <a class="btn btn-primary" href="cart.html" role="button">加入购物车</a>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="registerModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-Secondary ">
+          <h5 class="modal-title" id="exampleModalLabel">OPPO Reno6 Pro</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6">
+                <img src="./images/oppo1.jpg" width="200px" >
+              </div>
+              <div class="col-md-6">
+                <h2 class="product-title">OPPO Reno6 Pro 5G</h2>
+			        				<p class="product-price">￥3499</p>
+			        				<p class="product-short-description">
+			        					OPPO Reno6 Pro 5G手机 8GB+128GB 夏日晴海 全网通6400万水光四摄 65W超级闪充 90Hz高感屏 36个月流畅护航 拍照美颜手机
+			        				</p>
+                                    <a class="btn btn-primary" href="cart.html" role="button">加入购物车</a>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="registerModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-Secondary ">
+          <h5 class="modal-title" id="exampleModalLabel">小米（MI）11 Ultra</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6">
+                <img src="./images/xiaomi2.jpg" width="200px" >
+              </div>
+              <div class="col-md-6">
+                <h2 class="product-title">小米（MI）11 Ultra</h2>
+                <p class="product-price">￥6499</p>
+                <p class="product-short-description">
+                    小米（MI）米11 Ultra 12+256GB 陶瓷黑 骁龙888处理器 5000mAh大电量 120HZ刷新率 小米11至尊纪念版 小米安卓大屏手机游戏手机
+                </p><a class="btn btn-primary" href="cart.html" role="button">加入购物车</a>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="registerModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-Secondary ">
+          <h5 class="modal-title" id="exampleModalLabel">iQOO 7</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6">
+                <img src="./images/iqoo7.jpg" width="200px" >
+              </div>
+              <div class="col-md-6">
+                <h2 class="product-title">iQOO 7
+                </h2>
+            <p class="product-price">￥3398.00</p>
+            <p class="product-short-description">
+                vivo iQOO 7 潜蓝 12+256G 高通骁龙888+增强版LPDDR5 120W超快闪充 全感操控系统 双路线性马达 立体双扬 UFS 3.1 双模5G全网通iqoo手机
+            </p>
+            <a class="btn btn-primary" href="cart.html" role="button">加入购物车</a>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="registerModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-Secondary ">
+          <h5 class="modal-title" id="exampleModalLabel">华为 mate 40 pro</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6">
+                <img src="./images/huawei1.png" width="200px" >
+              </div>
+              <div class="col-md-6">
+                <h2 class="product-title">华为 mate 40 pro</h2>
+			        				<p class="product-price">￥6299</p>
+			        				<p class="product-short-description">
+			        					华为(HUAWEI)华为Mate 40 Pro 5G 全网通 8GB+256GB 亮黑色 5nm麒麟9000旗舰芯片 移动联通电信5G智能拍照游戏手机 华为mate40pro5g版
+			        				</p>
+                                    <a class="btn btn-primary" href="cart.html" role="button">加入购物车</a>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="js/all.js"></script>
+</body>
+<footer class="footer section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="social-media">
+                    <li>
+                       <i class="fab fa-facebook-square"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-weibo"></i>
+    
+                        
+                    </li>
+                    <li>
+                        <i class="fab fa-twitter-square"></i>
+
+                    </li>
+                    <li>
+                      <i class="fab fa-instagram-square"></i>
+                        
+                    </li>
+                 
+                </ul>
+                <ul class="footer-menu text-uppercase">
+                    <li class="dropdown ">
+                        <a href="index.html">Home</a>
+                    </li><!-- / Home -->
+                    <li class="dropdown ">
+                        <a href="shop.html">shop</a>
+                    </li>
+                    <li class="dropdown ">
+                        <a href="cart.html">Cart</a>
+                    </li>
+                    <li class="dropdown ">
+                        <a href="checkout.html">Checkout</a>
+                </ul>
+                <p class="copyright-text">Copyright &copy;2021, 粤台学院 </a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>AVIATO</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <body>
+        
+        <div class="top-header">
+        <nav class="navbar navbar-light ">
+           
+            <div class="col-md-4 col-xs-12 col-sm-4">
+          <div class="contact-number">
+            <span></span>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12 col-sm-4">
+            <!-- Site Logo -->
+            <div class="logo text-center">
+              <a href="index.html">
+                <!-- replace logo here -->
+                <svg width="135px" height="29px" viewBox="0 0 155 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="40"
+                    font-family="AustinBold, Austin" font-weight="bold">
+                    <g id="Group" transform="translate(-108.000000, -297.000000)" fill="#000000">
+                      <text id="AVIATO">
+                        <tspan x="108.94" y="325">AVIATO</tspan>
+                      </text>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+          
+            </div>
+         
+          </div>
+          <div class="col-md-4 col-xs-12 col-sm-4">
+            <div class="top-menu text-right list-inline">
+                <a class="dropdown cart-nav dropdown-slide">
+                    <a href=""class="btn btn-primay" data-toggle="modal" data-target="#loginModal">登入</a>
+                    <a href=""class="btn btn-primay" data-toggle="modal" data-target="#registerModal">注册</a>
+                    <a href="system.html">后台</a>
+               
+                    <button class="btn btn-sm btn-cart" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"aria-expanded="false">
+                        <i class="fa fa-shopping-cart text-dark fa-2x" aria-hidden="true"></i>
+                        <span class="badge badge-pill badge-danger">2</span>
+                    </button>   
+                    <div class="dropdown-menu dropdown-menu-right p-2" style="min-width: 300px;"aria-labeldby="dropdownMenuButton">
+                        <table class="table table-sm">
+                            <h6 class="mb-3 pt-2">已选择商品</h6>
+                            <tbody>
+                                <tr>
+                                    <td class="align-middle text-center">
+                                        <a href="#removeModal" class="text-muted" data-toggle="modal"data-target="#removeModal"
+                                        data-title="删除手机一件" data-backdrop="static">
+                                    <i class="fat fa-trash-alt" aria-hidden="true"></i></a>
+                                    </td>
+                                    <td ><img src="./images/honor1.jpg" width="50" height="50"></td>
+                                    <td>HONOR V40</td>
+                                    <td>*1</td>
+                                    <td >￥3599</td>
+                                </tr>
+                                <td class="align-middle text-center">
+                                  <a href="#removeModal" class="text-muted" data-toggle="modal"data-target="#removeModal"
+                                  data-title="删除手机一件" data-backdrop="static">
+                              <i class="fat fa-trash-alt" aria-hidden="true"></i></a>
+                              </td>
+                              <td ><img src="./images/color04.png" width="45" height="45"></td>
+                              <td>中兴Axon 30 Ultra</td>
+                              <td>*1</td>
+                              <td >￥4698</td>
+                          </tr>
+                              </tbody>
+                              
+                        </table>
+                        
+                        <a href="checkout.html" class="btn btn-primary btn-block" >结账去</a>
+                      </div>
+                    </a>
+            </div>
+        <br>
+        </div>
+    
+
+    
+      </nav>
+      
+      <hr style="width:70%; background-color: light; ">
+    
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item active">
+                  <a class="nav-link active "style="color: #000;" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html"style="color: #000;">shop</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+            <ul class="navbar-nav mr-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html"style="color: #000;">Cart</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="checkout.html"style="color: #000;">Checkout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+  <section class="page-header bg-gray">
+	<div class="container ">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content">
+					<h1 >Checkout</h1>
+					
+						<P><a href="index.html">Home</a>/Checkout</P>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header" bg-primary text-white>
+          <h5 class="modal-title" id="exampleModalLabel">登入</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">信箱</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">密码</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">记住密码</label>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+        <a href="#" class="mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#registerModal">切换到注册</a>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary"data-dismiss="modal">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-warning text-white">
+          <h5 class="modal-title" id="exampleModalLabel">注册</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-6">
+                <h5>注册 AVIATO 商城会员</h5>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, cum odit ut voluptatum obcaecati quo, quis ratione tempore alias sapiente reprehenderit necessitatibus sint non tempora beatae corrupti. Dolor, aliquam rem!</P>
+              </div>
+              <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">信箱</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">密码</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">确定密码</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">记住密码</label>
+                    </div>
+                  </form>
+              </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">切换到登入</a>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary"data-dismiss="modal">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container main-contant py-5">
+    
+    <div class="form-row text-center">
+        <div class="col-12 col-sm">
+            <!-- https://getbootstrap.com/docs/4.0/components/alerts/提示框alert-rounded改成大圆角css修改 -->
+            <div class="alert alert-success alert-rounded" role="alert">
+                1、输入订单资料
+            </div>
+        </div>
+        <div class="col-12 col-sm">
+            <div class="alert alert-light alert-rounded" role="alert">
+                2、金流付款
+            </div>
+        </div>
+        <div class="col-12 col-sm">
+            <div class="alert alert-light alert-rounded" role="alert">
+                3、完成
+            </div>
+        </div>
+    </div>
+    <!-- 折叠式选项 -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8">
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+           
+              <button class="btn btn-link btn-block text-left colldapse" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                显示购物车细节
+              </button>
+              <div class="text-right">
+                <span class="h3">	￥6299</span>
+            </div>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th width="30"></th>
+                            <th width="100"></th>
+                            <th>商品名称</th>
+                            <th width="100">数量</th>
+                            <th width="80">小计</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle text-center">
+                                <a href="#removeModal" class="text-muted" data-toggle="modal"
+                                    data-title="删除商品">
+                                    <i class="far fa-trash-alt" aria-hidden="true"></i>
+                                </a>
+                            </td>
+                            <td class="py-1" width="130">
+                                <img src="https://images.unsplash.com/photo-1494281258937-45f2853affd?w=1350"
+                                    class="img-thumbnail" alt="">
+                            </td>
+                            
+                            <td class="align-middle">华为 mate 40 pro</td>
+                            <td class="align-middle">1 件</td>
+                            <td class="align-middle text-right">	￥6299</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="text-right">运费</td>
+                            <td class="text-right">
+                                <strong>0</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="text-right">合计</td>
+                            <td class="text-right">
+                                <strong>	￥6299</strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+       <!-- 订购人资讯 -->
+       <div class="card border-0 rounded-20 mt-5">
+        <div class="card-header border-bottom-0">
+            <h3 class="text-center">订购人资讯</h3>
+        </div>
+    </div>
+    <!-- https://getbootstrap.com/docs/4.0/components/forms/ -->
+    <form class="mt-3 needs-validation" novalidate>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name">姓名</label>
+                <input type="text" class="form-control" id="name" placeholder="姓名" required>
+                <div class="invalid-feedback">
+                    请输入姓名
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="email">Email </label>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                <div class="invalid-feedback">
+                    请输入邮箱
+                </div>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="country">国家</label>
+                <select id="country" class="form-control">
+                    <option selected>中国</option>
+                    <option>美国</option>
+                    <option>马来西亚</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="city">城市</label>
+                <select id="city" class="form-control">
+                    <option selected>东莞市</option>
+                    <option>广州</option>
+                    <option>深圳</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="zipcode">邮递区号</label>
+                <input type="text" class="form-control" id="zipcode" required>
+                    <div class="invalid-feedback">
+                        请输入邮递区号
+                    </div>
+            </div>
+            <div class="form-group col-md-12">
+                <label for="address">地址</label>
+                <input type="text" class="form-control" id="address" placeholder="重厦南路一段122号" required>
+                <div class="invalid-feedback">
+                    请输入地址
+                </div>
+            </div>             
+        </div>
+        <div class="d-flex justify-content-end">
+            <a href="cart.html" class="btn btn-secondary mr-1">继续选购</a>
+           
+            <a href="confirmation.html" class="btn btn-primary">确认付款</a >
+        </div>
+    </form>
+</div>
+</div>
+</div>
+      </div>
+      
+      </div>
+   
+      
+
+      <footer class="footer section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="social-media">
+                        <li>
+                           <i class="fab fa-facebook-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-weibo"></i>
+        
+                            
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter-square"></i>
+  
+                        </li>
+                        <li>
+                          <i class="fab fa-instagram-square"></i>
+                            
+                        </li>
+                     
+                    </ul>
+                    <ul class="footer-menu text-uppercase">
+                        <li class="dropdown ">
+                            <a href="index.html">Home</a>
+                        </li><!-- / Home -->
+                        <li class="dropdown ">
+                            <a href="shop.html">shop</a>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="cart.html">Cart</a>
+                        </li>
+                        <li class="dropdown ">
+                            <a href="checkout.html">Checkout</a>
+                    </ul>
+                    <p class="copyright-text">Copyright &copy;2021, 粤台学院 </a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+    
+
+ <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+<script src="js/all.js"></script>
+
+</body>
+
+</html>

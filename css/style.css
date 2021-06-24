@@ -1,0 +1,240 @@
+
+.navbar
+{
+    font-style:normal
+}
+        .header-carousel-item{
+            height:600px;}
+        .form-control{
+            border-width: 3px;
+        }
+        .bg-cover{
+        background-size:cover;
+        background-position:center center;}
+       
+        @media(min-width:768px)
+        {
+            .text-md-dark{
+                color:#333
+            }
+        }
+        .civ{
+          color:black;
+        }
+       .dropdown-slide {
+  position: static;
+}
+  a{ color:rgb(0, 0, 0)}
+a:hover{ color:#F00}
+
+
+
+@media (max-width: 480px) {
+    .call-to-action .subscription-form {
+        display: block;
+    }
+}
+
+.call-to-action .subscription-form input {
+    height: 50px;
+}
+
+@media (max-width: 480px) {
+    .call-to-action .subscription-form input {
+        text-align: center;
+    }
+}
+
+.call-to-action .subscription-form .btn-main, .call-to-action .subscription-form .btn-solid-border, .call-to-action .subscription-form .btn-transparent, .call-to-action .subscription-form .btn-small {
+    font-size: 14px;
+}
+
+@media (max-width: 480px) {
+    .call-to-action .subscription-form .btn-main, .call-to-action .subscription-form .btn-solid-border, .call-to-action .subscription-form .btn-transparent, .call-to-action .subscription-form .btn-small {
+        width: 100%;
+    }
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.title {
+    padding: 20px 0 30px;
+}
+
+    .title h2 {
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .bg-gray {
+        background: #f9f9f9;
+    }
+
+    .fot .h1, h2, h3, h4, h5, h6 {
+        font-family: "Poppins", sans-serif;
+    }
+
+    .fot .h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+    }
+
+    .form-control {
+        border-width: 4px;
+    }
+
+    .fot .ol, ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+
+
+
+    .container .row {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+
+    @media (max-width: 480px) {
+        .call-to-action .subscription-form {
+            display: block;
+        }
+    }
+
+    .call-to-action .subscription-form input {
+        height: 50px;
+    }
+
+    @media (max-width: 480px) {
+        .call-to-action .subscription-form input {
+            text-align: center;
+        }
+    }
+
+    .call-to-action .subscription-form .btn-main, .call-to-action .subscription-form .btn-solid-border, .call-to-action .subscription-form .btn-transparent, .call-to-action .subscription-form .btn-small {
+        font-size: 14px;
+    }
+
+    @media (max-width: 480px) {
+        .call-to-action .subscription-form .btn-main, .call-to-action .subscription-form .btn-solid-border, .call-to-action .subscription-form .btn-transparent, .call-to-action .subscription-form .btn-small {
+            width: 100%;
+        }
+    }
+
+    .fot .section {
+        padding: 80px 0;
+
+    }
+
+    .fot .title {
+        padding: 20px 0 30px;
+    }
+
+        .fot .title h2 {
+            font-size: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    .fot .btn-main {
+        background: #000;
+        color: #fff;
+        display: inline-block;
+        font-size: 11px;
+        letter-spacing: 1px;
+        padding: 14px 35px;
+        text-transform: uppercase;
+        font-weight: 200;
+        border-radius: 0;
+    }
+
+
+    .footer {
+        background: #F7F7F7;
+        padding: 50px 0;
+    }
+
+        .footer .footer-menu {
+            margin-top: 30px;
+        }
+
+            .footer .footer-menu li {
+                display: inline-block;
+                margin: 0 10px;
+            }
+
+                .footer .footer-menu li a {
+                    color: #333;
+                    font-size: 12px;
+                }
+
+        .footer .copyright-text {
+            margin-top: 20px;
+        }
+
+    .social-media li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+        .social-media li a {
+            padding: 8px 10px;
+        }
+
+            .social-media li a i {
+                font-size: 20px;
+                color: #555;
+            }
+            .dropdown>button:focus {
+                box-shadow: 0 0 0 0rem !important;
+            }
+    
+            .btn-cart {
+                background-color: transparent;
+                position: relative;
+            }
+    
+            .dropdown .btn-cart .badge {
+                position: absolute;
+                top: -1px;
+                right: -1px;
+            }
+    
+            .dropdown-menu-right {
+                right: 0px;
+                left: auto;
+            }
+    
+            .jumbotron-bg {
+                background-image: url('https://images.unsplash.com/photo-1477901492169-d59e6428fc90?w=1350');
+                background-size: cover;
+                background-position: center center;
+                min-height: 400px;
+            }
+    
+            .bg-lighter {
+                background-color: rgba(255, 255, 255, .65);
+            }
+    
+            .box-shadow {
+                box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+                transition: box-shadow .3s;
+            }
+            .btn-main {
+                background: #000;
+                color: #fff;
+                display: inline-block;
+                font-size: 11px;
+                letter-spacing: 1px;
+                padding: 14px 35px;
+                text-transform: uppercase;
+                font-weight: 200;
+                border-radius: 0;}
+                
